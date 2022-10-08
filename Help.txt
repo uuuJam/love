@@ -1,0 +1,16 @@
+cd - Открыт каталог
+dir - посмотреть каталог
+git status - получить статус
+git add . - добавить все новые файлы (подготовка к отправке, индексировать файлы)
+git commit -m "A new file is added" - фиксируем изменения
+git push - публикация на сервер
+git log - log файлов
+git rm file.txt - удаление (подготовка к удалению, удалить из индекса)
+
+git branch testbranch00 - создать ветку
+git branch --list - посмотреть ветки
+git branch --list -v - последние коммины в ветках
+git checkout testbranch00 - переключится на данную ветку
+git merge testbranch00 - (слияние) файлы и коммиты из этой ветки в ту на которой сижу
+git push --set-upstream origin testbranch00 - публикация ветки
+git pull - получить актуальную информацию в ту ветку в которой сижу включая файлы.
